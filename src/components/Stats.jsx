@@ -8,7 +8,7 @@ const Stats = () => {
 
     useEffect (() => {
         axios
-            .get("http://localhost:5000/api/youtube/stats")
+            .get("https://petclips-backend.onrender.com/api/youtube/stats")
             .then((res) => {
                 setStats(res.data);
                 setLoading(false);
