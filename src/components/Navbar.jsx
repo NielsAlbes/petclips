@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Global.css";
 
 const Navbar = () => {
@@ -21,10 +22,10 @@ const Navbar = () => {
         </div>
 
         <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
+          <li><Link to="/">Home</Link></li>
           <li><a href="https://www.youtube.com/@PetClipsDE" target="_blank" rel="noreferrer">Channel</a></li>
-          <li><a href="#product">Produkt</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+          <li><Link to="/product">Produkt</Link></li>
+          <li><a href="#">Kontakt</a></li>
         </ul>
       </div>
     </nav>
