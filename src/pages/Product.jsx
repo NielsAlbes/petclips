@@ -7,8 +7,8 @@ const Product = () => {
       <div className="container">
         <h2>PetBoost Creatine-Monohydrate 💪</h2>
         <p>
-          PetBoost unterstützt die Muskelkraft und Regeneration deines Haustiers. 
-          100 % natürlich, sicher und von Tierärzten empfohlen!
+          PetBoost supports your pet's muscle strength and recovery.
+          100% natural, safe, and recommended by veterinarians!
         </p>
         <img
           src="https://vitamoment.de/cdn/shop/files/muskulatur_creatin.jpg?v=1716467787&width=1200"
@@ -17,9 +17,9 @@ const Product = () => {
         />
         <div className="product-details">
           <ul>
-            <li>Fördert Energie & Ausdauer 🐕</li>
-            <li>Für gesunde Muskeln & Vitalität 💪</li>
-            <li>100 % natürlich & laborgeprüft ✅</li>
+            <li>Emphasizes durability 🐕</li>
+            <li>For stronger muscles 💪</li>
+            <li>100% natural ✅</li>
           </ul>
         </div>
         <a
@@ -28,7 +28,7 @@ const Product = () => {
           rel="noopener noreferrer"
           className="btn"
         >
-          Jetzt ansehen
+          Visit
         </a>
       </div>
     </section>

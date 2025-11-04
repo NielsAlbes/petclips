@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "../Global.css";
 
 const Hero = () => {
@@ -7,15 +8,15 @@ const Hero = () => {
   const slides = [
     {
       src: "https://vitamoment.de/cdn/shop/files/muskulatur_creatin.jpg?v=1716467787&width=1200",
-      caption: "PetBoost Creatine-Monohydrate",
+      caption: "PetBoost Creatine Mono-Hydrate",
     },
     {
       src: "https://vitamoment.de/cdn/shop/files/creatin_default.png?v=1686752954&width=400",
-      caption: "100% natürlich & sicher für dein Tier",
+      caption: "100% natural & safe for your pet.",
     },
     {
       src: "https://vitamoment.de/cdn/shop/files/VM_Icon_100Tage-Garantie_ae43686a-04ea-4ab3-98a4-e93ff97104d9.png?v=1722614500&width=448",
-      caption: "Empfohlen von Tierärzten",
+      caption: "Recommended by vets.",
     },
   ];
 
@@ -31,13 +32,13 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-text">
           <h2>
-            Die besten täglichen <span>Tiermomente</span>
+            The best daily <span>pet moments</span>
           </h2>
           <p>
-            Unser neues Produkt ist einzigartig und perfekt geeignet für Ihr
-            Haustier.
+            We developed a new product, that fits your pet perfectly. Using only natural and
+            sustainable ingredients, we offer an exclusive deal.
           </p>
-          <a href="#product" className="btn">Zu unserem Produkt</a>
+          <Link to="/product" className="btn">See more</Link>
         </div>
 
         <div className="hero-product">

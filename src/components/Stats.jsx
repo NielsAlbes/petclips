@@ -32,6 +32,10 @@ const Stats = () => {
                 <h3>{Number(stats.subscribers).toLocaleString()}+</h3>
                 <p>Subscribers</p>
             </div>
+            <div className="stat">
+                <h3>180+</h3>
+                <p>Countries</p>
+            </div>
         </section>
     );
 };
