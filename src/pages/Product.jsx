@@ -23,7 +23,7 @@ const Product = () => {
           </ul>
         </div>
         <a
-          href="https://vitamoment.de/"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           className="btn"
