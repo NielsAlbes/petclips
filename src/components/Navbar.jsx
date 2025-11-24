@@ -26,7 +26,7 @@ const Navbar = () => {
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
           <li><a href="https://www.youtube.com/@PetClipsDE" target="_blank" rel="noreferrer">Channel</a></li>
-          <span><li><Link to="/product">Product</Link></li></span>
+          <li><div className="product-link"><Link to="/product">Product</Link></div></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>

@@ -64,15 +64,15 @@ body {
   padding: 0;
 }
 
-.nav-links span {
-  color: #ff5252;
-}
-
 .nav-links a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
+}
+
+.product-link a {
+  color: #f75959;
 }
 
 .nav-links a:hover {
@@ -81,7 +81,7 @@ body {
 
 /* === HERO === */
 .hero {
-  background: linear-gradient(180deg, #000, #222);
+  background: linear-gradient(180deg, #000, #111);
   color: #fff;
   padding: 60px 20px;
 }
@@ -103,7 +103,7 @@ body {
 }
 
 .hero-text h2 {
-  font-size: 2.2em;
+  font-size: 3em;
   margin-bottom: 15px;
 }
 
@@ -142,8 +142,8 @@ body {
 }
 
 .slide-img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
   border-radius: 1rem;
   display: block;
   margin: 0 auto;
@@ -153,7 +153,7 @@ body {
   text-align: center;
   margin-top: 12px;
   color: #ccc;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 /* === STATS === */
@@ -164,16 +164,16 @@ body {
   gap: 4rem;
   flex-wrap: wrap;
   padding: 2.5rem 1rem;
-  background: #222;
+  background: linear-gradient(180deg, #111, #222);
   border-bottom: 1px solid #333;
 }
 
 .stat {
   flex: 1 1 150px;
-  background: #161616;
+  background: #141414;
   padding: 1.5rem;
   border-radius: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 3px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   transition: all 0.3s ease;
   max-width: 170px;
@@ -187,14 +187,14 @@ body {
 }
 
 .stat h3 {
-  font-size: 2.25rem;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
   font-weight: 700;
   color: #ff5252;
 }
 
 .stat p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #ccc;
   letter-spacing: 0.5px;
   text-transform: uppercase;

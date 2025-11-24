@@ -8,32 +8,33 @@
 
 .product-page .container {
   max-width: 800px;
-  margin: 0 auto;
 }
 
 .product-page h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
   color: #ff5252;
+  margin-bottom: 0;
 }
 
 .product-page p {
   color: #ccc;
-  margin-bottom: 2rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  margin-bottom: 10;  
+  margin-top: 0rem;
+  margin-bottom: 2.5rem;
 }
 
 .product-image {
-  width: 100%;
-  max-width: 500px;
+  width: 95%;
+  max-width: 600px;
   border-radius: 1rem;
-  margin-bottom: 2rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 20;
 }
 
 .product-details {
-  text-align: left;
-  color: #ddd;
+  text-align: center;
+  color: #ccc;
   margin-bottom: 2rem;
 }
 
@@ -52,6 +53,4 @@
 .product-details li::before {
   content: "✔";
   color: #ff6f6f;
-  position: absolute;
-  left: 0;
 }
