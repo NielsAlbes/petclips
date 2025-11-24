@@ -42,14 +42,14 @@ const Hero = () => {
         </div>
 
         <div className="hero-product">
-          <div className="slideshow-container">
+          <Link to="/product"className="slideshow-container">
             <img
               src={slides[current].src}
               alt={slides[current].caption}
               className="slide-img"
             />
             <div className="caption">{slides[current].caption}</div>
-          </div>
+          </Link>
         </div>
       </div>
     </header>

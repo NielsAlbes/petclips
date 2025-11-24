@@ -7,7 +7,7 @@ const Navbar = () => {
 
   useEffect(() => {
     // Trigger animation shortly after mount
-    const timer = setTimeout(() => setAnimate(true), 400);
+    const timer = setTimeout(() => setAnimate(true), 600);
     return () => clearTimeout(timer);
   }, []);
 
@@ -15,24 +15,19 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container nav-container">
         <div className="logo">
-          <a
-            href="https://www.youtube.com/@PetClipsDE"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="logo-link"
-          >
+          <Link to="/product" className="logo-link">
             <img
               src="profile.jpg"
               alt="Pet Clips Logo"
             />
-            <h1 className={`logo-text ${animate ? "slide-in" : ""}`}>PetClips</h1>
-          </a>
+            <h1 className={`logo-text ${animate ? "slide-in" : ""}`}>PetClipsDe</h1>
+          </Link>
         </div>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
           <li><a href="https://www.youtube.com/@PetClipsDE" target="_blank" rel="noreferrer">Channel</a></li>
-          <li><Link to="/product">Product</Link></li>
-          <li><a href="#">Contact</a></li>
+          <span><li><Link to="/product">Product</Link></li></span>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
     </nav>
