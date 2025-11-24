@@ -5,30 +5,29 @@ const Product = () => {
   return (
     <section className="product-page">
       <div className="container">
-        <h2>PetBoost Creatine-Monohydrate 💪</h2>
+        <h2>The Cat Cave</h2>
         <p>
-          PetBoost supports your pet's muscle strength and recovery.
-          100% natural, safe, and recommended by veterinarians!
+          comfortable | luxurious | sustainable
         </p>
         <img
-          src="https://vitamoment.de/cdn/shop/files/muskulatur_creatin.jpg?v=1716467787&width=1200"
+          src="/mainPicture.jpg"
           alt="PetBoost Produkt"
           className="product-image"
         />
         <div className="product-details">
           <ul>
-            <li>Emphasizes durability 🐕</li>
-            <li>For stronger muscles 💪</li>
-            <li>100% natural ✅</li>
+            <li> 100% safe sleeping 🐕</li>
+            <li> semi-enclosed design 💪</li>
+            <li> warm and comfortable ✅</li>
           </ul>
         </div>
         <a
-          href="https://vitamoment.de/"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           className="btn"
         >
-          Visit
+          Buy Now
         </a>
       </div>
     </section>
