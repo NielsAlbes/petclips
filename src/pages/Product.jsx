@@ -21,14 +21,14 @@ const Product = () => {
             <li> warm and comfortable ✅</li>
           </ul>
         </div>
-        <a
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          Buy Now
-        </a>
+        <div className="checkout">
+          <a
+            href=""
+            className="btn">
+            Buy
+          </a>
+          <h3>29.99 €</h3>
+        </div>
       </div>
     </section>
   );

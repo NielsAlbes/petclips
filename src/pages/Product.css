@@ -13,7 +13,7 @@
 .product-page h2 {
   font-size: 3rem;
   color: #ff5252;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .product-page p {
@@ -29,11 +29,11 @@
   max-width: 600px;
   border-radius: 1rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  margin-top: 20;
+  margin-top: 10px;
 }
 
 .product-details {
-  text-align: center;
+  text-align: left;
   color: #ccc;
   margin-bottom: 2rem;
 }
@@ -53,4 +53,12 @@
 .product-details li::before {
   content: "✔";
   color: #ff6f6f;
+}
+
+.checkout {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+  margin-bottom: 20px;
 }
