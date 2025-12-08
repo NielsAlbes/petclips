@@ -39,13 +39,13 @@ const Stats = () => {
 
     useEffect(() => {
         if (stats) {
-            animateValue(0, stats.views, 2500, setViews);
-            animateValue(0, stats.subscribers, 2000, setSubs);
-            animateValue(0, 185, 1500, setCountries);
+            animateValue(0, stats.views, 4000, setViews);
+            animateValue(0, stats.subscribers, 3000, setSubs);
+            animateValue(0, 185, 2000, setCountries);
         }
     }, [stats]);
 
-    if (loading) return <p>Loading Data...</p>;
+    if (loading) return <p className="loading">Loading Data...</p>;
     if (!stats) return <p>No Data available...</p>;
 
     return (
